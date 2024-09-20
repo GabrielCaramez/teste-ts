@@ -1,5 +1,8 @@
-const sum = (x: number, y: number): string | Number =>{
-    return (x + y).toString();
+interface MathFunc {
+(x: number, y: number): number;
+}
+const sum: MathFunc = (x: number, y: number):number =>{
+    return (x + y);
 };
 const value = sum(1, 2);
 const log = (message: string): void =>{
