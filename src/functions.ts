@@ -8,3 +8,10 @@ const value = sum(1, 2);
 const log = (message: string): void =>{
     console.log(message);
 };
+//classes
+class Person {
+    name: string;
+    constructor(name: string) {
+        this.name = name;
+    }
+};
